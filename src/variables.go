@@ -63,8 +63,14 @@ func main(){
 	Data Types in GOLang
 
 	- int : Integer data type, variable of this type can store integers. Ex: var age int = 21
+	- int16 : here 16 represents the size of the integer (in bits)
 	- int32 
 	- int64
+
+	- uint : Unsigned Integer data type, variable of this type can only store positive integers. Ex: var num uint = 12
+	- uint16
+	- uint32
+	- uint64
 
 	- float : variable of this type can store Decimals. Ex: var PI float = 3.14
 	- float32
@@ -92,6 +98,12 @@ func main(){
 	/// And we can't perform operations on same data of different size. (we will see later)
 	fmt.Println(year)
 	fmt.Println(num)
+
+	/// Unsigned Integers
+	var num1 uint = 12
+	var num2 uint16 = 14
+	fmt.Println(num1)
+	fmt.Println(num2)
 
 	/// float 
 	var n float32 = 2.2
