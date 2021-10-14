@@ -137,4 +137,7 @@ func main(){
 	fmt.Println(firstLetter)
 	fmt.Println(lastLetter)
 
+	/// NOTE : variable that are deleclared but not assigned are by default zero valued.
+	/// NOTE : variable that are not used in the code cause error in GOLANG.
+
 }
