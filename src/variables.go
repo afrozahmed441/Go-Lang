@@ -4,6 +4,14 @@ import (
 	"fmt"
 )
 
+/// this is one of the way to create variable in GO mostly at package level (global level)
+
+var (
+	fName string = "Afroz"
+	lName string = "Shaik"
+	age int = 20 
+)
+
 func main(){
 
 	/**
