@@ -11,6 +11,15 @@ const (
 	YEAR = 365
 )
 
+/// enum constants
+/// ioat assigns value 0 for first time (starts from 0)
+const (
+	a = iota
+	b
+	c
+	d
+)
+
 func main() {
 
 	/// Constants in GO
@@ -34,4 +43,12 @@ func main() {
 	fmt.Println(YEAR);
 	fmt.Println(SUM);
 	fmt.Println(SNAME);
+
+	/// enum constants
+	fmt.Printf("%v\n", a);
+	fmt.Printf("%v\n", b);
+	fmt.Printf("%v\n", c);
+	fmt.Printf("%v\n", d);
+
+/// NOTE : Arrays and slices can't be assigned as const (we will see in array and slice section)
 }
