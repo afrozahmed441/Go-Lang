@@ -58,7 +58,7 @@ func main() {
 	var m2 map[int]string = m
 	/// interseting a new value into the map m2
 	m2[5] = "ola"
-	/// printing two makes
+	/// printing two maps 
 	fmt.Println(m)
 	fmt.Println(m2)
 	/// both the maps contains the new key value pair, because they are reference type
