@@ -14,6 +14,14 @@ type User struct {
 	age int16
 }
 
+/// tags 
+/// tags are useful when we convert a struct to JSON 
+type Person struct {
+	FirstName string	`json:"first_name"`
+	LastName string 	`json:"last_name"`
+	Age int32			`json:"age"`
+}
+
 
 func main() {
 
@@ -33,4 +41,16 @@ func main() {
 	fmt.Printf("%v\n", user.lastName)
 	
 	
+	/// Anonymous structures
+	p := struct {
+		id int32 
+		name string
+		}{
+			id : 1, 
+			name : "Afroz",
+		}
+	fmt.Println(p)
+	fmt.Println(p.id)
+	fmt.Println(p.name)
+
 }
